@@ -15,3 +15,14 @@ while(i<=n){
     console.log(i)
     i++
 }
+
+// print all number form min to max
+
+var max =19
+var min = 13
+
+var i=min;
+while(i<=max){
+    console.log(i)
+    i++
+}
