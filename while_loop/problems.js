@@ -26,3 +26,12 @@ while(i<=max){
     console.log(i)
     i++
 }
+
+// print the tanle of 3
+
+var table_name  =3
+var i=1;
+while(i<=10){
+    console.log(i*table_name)
+    i++
+}
