@@ -11,3 +11,17 @@ function firstNested(num){
 }
 const num = 12
 console.log(firstNested(num))
+
+
+// print n starts
+function startPattern(num){
+    for(var i=0;i<=num;i++){
+        var line = ""
+        for(var j=1; j <= num; j++){
+            line=line+"*"+" "
+        }
+    }
+    return line
+}
+const n = 5;
+console.log(startPattern(n))
