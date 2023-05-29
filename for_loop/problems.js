@@ -25,3 +25,16 @@ function startPattern(num){
 }
 const n = 5;
 console.log(startPattern(n))
+
+// Pattern printing
+function patternPrinting(numbers){
+    for(var i=1; i<= numbers; i++){
+        var line = ""
+        for(var j=1; j<=i;j++){
+            line = line + "*" +" "
+        }
+        return line
+    }
+}
+const patt_num = 5;
+console.log(patternPrinting(patt_num))
